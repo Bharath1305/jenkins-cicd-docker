@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'DOCKER_IMAGE_NAME', description: 'Enter the Docker image name', defaultValue: 'bharath1305'/custom-img-17-04-2024')
+        string(name: 'DOCKER_IMAGE_NAME', description: 'Enter the Docker image name', defaultValue: 'bharath1305/custom-img-17-04-2024')
     }
 
     environment {
